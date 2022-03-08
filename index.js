@@ -8,7 +8,7 @@ var port = process.env.PORT || 3525;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.get("/", function (req, res) {
+app.get("/json", function (req, res) {
   res.status(200).send({
     _id: "algo",
     index: "algito",
