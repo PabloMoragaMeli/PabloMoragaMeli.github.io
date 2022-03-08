@@ -1,0 +1,11 @@
+{
+  "_id": "algo",
+  "index": "algito",
+  "guid": "sasdas",
+  "isActive": true,
+  "balance": "2,2",
+  "picture": "http://placehold.it/32x32",
+  "age": 30,
+  "eyeColor": "blue",
+  "name": "pablo moraga"
+}
