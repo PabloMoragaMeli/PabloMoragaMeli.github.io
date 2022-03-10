@@ -1,11 +1,163 @@
 {
-  "_id": "algo",
-  "index": "algito",
-  "guid": "sasdas",
-  "isActive": true,
-  "balance": "2,2",
-  "picture": "http://placehold.it/32x32",
-  "age": 30,
-  "eyeColor": "blue",
-  "name": "pablo moraga"
+  "PageDetails": {
+    "components": [
+      {
+        "type": "Labels",
+        "props": {
+          "labels": [
+            { "label": "HD" },
+            { "label": "5.1" },
+            { "label": "2021" },
+            { "label": "14 +" },
+            { "label": "1 h 52 min" }
+          ]
+        }
+      },
+      {
+        "type": "Detail",
+        "props": {
+          "detail": "Narra la historia del legendario quarterback Kurt Warner, MVP de la NFL, que pasó de ser reponedor en un supermercado a convertirse en una estrella del fútbol americano y miembro del Salón de la Fama del deporte más popular de los Estados Unidos."
+        }
+      },
+      {
+        "type": "ContentTab",
+        "props": {
+          "tabs": ["Episodios", "Actores", "Relacionados"],
+          "content": [
+            {
+              "type": "List",
+              "tabs": "Episodios",
+              "tabsContent": [
+                {
+                  "title": "Temporada 1",
+                  "episodes": [
+                    {
+                      "image": "url de Imagen",
+                      "title": "Titulo 1",
+                      "subTitle": "Drama | 2019 | 16+ | 4k UHD",
+                      "actions": [
+                        {
+                          "icon": "ArrowRigth",
+                          "hover": "Ver Ahora"
+                        }
+                      ]
+                    },
+                    {
+                      "image": "url de Imagen",
+                      "title": "Titulo 2",
+                      "subTitle": "Drama | 2019 | 16+ | 4k UHD",
+                      "actions": [
+                        {
+                          "icon": "ArrowRigth",
+                          "hover": "Ver Ahora"
+                        }
+                      ]
+                    },
+                    {
+                      "image": "url de Imagen",
+                      "title": "Titulo 3",
+                      "subTitle": "Drama | 2019 | 16+ | 4k UHD",
+                      "actions": [
+                        {
+                          "icon": "ArrowRigth",
+                          "hover": "Ver Ahora"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Temporada 2",
+                  "episodes": [
+                    {
+                      "image": "url de Imagen",
+                      "title": "Titulo 1",
+                      "subTitle": "Drama | 2019 | 16+ | 4k UHD",
+                      "actions": [
+                        {
+                          "icon": "ArrowRigth",
+                          "hover": "Ver Ahora"
+                        }
+                      ]
+                    },
+                    {
+                      "image": "url de Imagen",
+                      "title": "Titulo 2",
+                      "subTitle": "Drama | 2019 | 16+ | 4k UHD",
+                      "actions": [
+                        {
+                          "icon": "ArrowRigth",
+                          "hover": "Ver Ahora"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "List",
+              "tabs": "Actores",
+              "tabsContent": [
+                {
+                  "image": "https://cl.buscafs.com/www.tomatazos.com/public/uploads/images/28383/28383_173x260.jpg",
+                  "title": "Zachary Levi"
+                },
+                {
+                  "image": "https://cl.buscafs.com/www.tomatazos.com/public/uploads/images/14730/14730_173x219.jpg",
+                  "title": "Anna Paquin"
+                },
+                {
+                  "image": "https://cl.buscafs.com/www.tomatazos.com/public/uploads/images/47890/47890_173x231.jpg",
+                  "title": "Dennis Quaid"
+                },
+                {
+                  "image": "https://cl.buscafs.com/www.tomatazos.com/public/uploads/images/12831/12831_173x256.jpg",
+                  "title": "Adam Baldwin"
+                },
+                {
+                  "image": "https://cl.buscafs.com/www.tomatazos.com/public/uploads/images/7195/7195_173x252.jpg",
+                  "title": "Bruce McGill"
+                },
+                {
+                  "image": "https://cl.buscafs.com/www.tomatazos.com/public/uploads/images/333419/333419_173x260.jpg",
+                  "title": "SerDarius Blain"
+                }
+              ]
+            },
+            {
+              "type": "List",
+              "tabs": "Relacionados",
+              "tabsContent": [
+                {
+                  "image": "https://cl.buscafs.com/www.tomatazos.com/public/uploads/images/28383/28383_173x260.jpg",
+                  "title": "Zachary Levi"
+                },
+                {
+                  "image": "https://cl.buscafs.com/www.tomatazos.com/public/uploads/images/14730/14730_173x219.jpg",
+                  "title": "Anna Paquin"
+                },
+                {
+                  "image": "https://cl.buscafs.com/www.tomatazos.com/public/uploads/images/47890/47890_173x231.jpg",
+                  "title": "Dennis Quaid"
+                },
+                {
+                  "image": "https://cl.buscafs.com/www.tomatazos.com/public/uploads/images/12831/12831_173x256.jpg",
+                  "title": "Adam Baldwin"
+                },
+                {
+                  "image": "https://cl.buscafs.com/www.tomatazos.com/public/uploads/images/7195/7195_173x252.jpg",
+                  "title": "Bruce McGill"
+                },
+                {
+                  "image": "https://cl.buscafs.com/www.tomatazos.com/public/uploads/images/333419/333419_173x260.jpg",
+                  "title": "SerDarius Blain"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
 }
