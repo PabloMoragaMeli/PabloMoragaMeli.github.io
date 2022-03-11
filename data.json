@@ -1,139 +1,211 @@
 {
-  "PageDetails": {
-    "components": [
-      {
-        "type": "Image",
-        "props": {
-          "title": "The Walking Dead",
-          "image": "https://images8.alphacoders.com/565/565975.jpg"
-        }
-      },
-      {
-        "type": "Labels",
-        "props": {
-          "labels": [
-            { "label": "HD" },
-            { "label": "5.1" },
-            { "label": "2010" },
-            { "label": "11 temporadas" },
-            { "label": "+ 18" }
-          ]
-        }
-      },
-      {
-        "type": "Detail",
-        "props": {
-          "detail": "The Walking Dead es una serie de televisión estadounidense que se emite en la cadena AMC. Creada por Frank Darabont, la producción se basa en la serie de cómics del mismo nombre escritos por Robert Kirkman. Actualmente, la serie está compuesta por siete temporadas y el primer capítulo de The Walking Dead se estrenó el 31 de octubre de 2010 en el canal estadounidense mencionado. En España, la serie se emite en FOX y en otros canales como Neox y LaSexta."
-        }
-      },
-      {
-        "type": "ContentTab",
-        "props": {
-          "contentTab": [
-            {
-              "type": "ListItem",
-              "tabs": "Episodios",
-              "tabsContent": [
-                {
-                  "title": "Temporada 1",
-                  "content": [
-                    {
-                      "image": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp",
-                      "primary": "Titulo 1",
-                      "secondary": "Drama | 2019 | 16+ | 4k UHD"
+  "components": [
+    {
+      "type": "image",
+      "props": {
+        "title": "The Walking Dead",
+        "url": "https://images8.alphacoders.com/565/565975.jpg"
+      }
+    },
+    {
+      "type": "badge",
+      "props": {
+        "classes": {},
+        "labels": [
+          { "labels": "HD", "type": "success", "hierarchy": "loud" },
+          { "label": "5.1" },
+          { "label": "2010" },
+          { "label": "11 temporadas" },
+          { "label": "+ 18", "type": "error", "hierarchy": "loud" }
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "props": {
+        "detail": "The Walking Dead es una serie de televisión estadounidense que se emite en la cadena AMC. Creada por Frank Darabont, la producción se basa en la serie de cómics del mismo nombre escritos por Robert Kirkman. Actualmente, la serie está compuesta por siete temporadas y el primer capítulo de The Walking Dead se estrenó el 31 de octubre de 2010 en el canal estadounidense mencionado. En España, la serie se emite en FOX y en otros canales como Neox y LaSexta."
+      }
+    },
+    {
+      "type": "tabs",
+      "props": {
+        "tabs": [
+          {
+            "tabs": "Episodios",
+            "props": {},
+            "type": "list-collapse",
+            "content": [
+              {
+                "title": "Temporada 1",
+                "items": [
+                  {
+                    "image": {
+                      "url": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp",
+                      "title": "titulo 1"
                     },
-                    {
-                      "image": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp",
-                      "primary": "Titulo 2",
-                      "secondary": "Drama | 2019 | 16+ | 4k UHD"
+                    "primary": "Titulo 1",
+                    "secondary": "Drama | 2019 | 16+ | 4k UHD"
+                  },
+                  {
+                    "image": {
+                      "url": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp",
+                      "title": "titulo 2"
                     },
-                    {
-                      "image": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp",
-                      "primary": "Titulo 3",
-                      "secondary": "Drama | 2019 | 16+ | 4k UHD"
-                    }
-                  ]
-                },
-                {
-                  "title": "Temporada 2",
-                  "content": [
-                    {
-                      "image": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp",
-                      "primary": "Titulo 1",
-                      "secondary": "Drama | 2019 | 16+ | 4k UHD"
+                    "primary": "Titulo 2",
+                    "secondary": "Drama | 2019 | 16+ | 4k UHD"
+                  },
+                  {
+                    "image": {
+                      "url": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp",
+                      "title": "titulo 3"
                     },
-                    {
-                      "image": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp",
-                      "primary": "Titulo 2",
-                      "secondary": "Drama | 2019 | 16+ | 4k UHD"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Carousel",
-              "tabs": "Actores",
-              "tabsContent": [
+                    "primary": "Titulo 3",
+                    "secondary": "Drama | 2019 | 16+ | 4k UHD"
+                  }
+                ]
+              },
+              {
+                "title": "Temporada 2",
+                "items": [
+                  {
+                    "image": {
+                      "url": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp",
+                      "title": "titulo 1"
+                    },
+                    "primary": "Titulo 1",
+                    "secondary": "Drama | 2019 | 16+ | 4k UHD"
+                  },
+                  {
+                    "image": {
+                      "url": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp",
+                      "title": "titulo 2"
+                    },
+                    "primary": "Titulo 2",
+                    "secondary": "Drama | 2019 | 16+ | 4k UHD"
+                  },
+                  {
+                    "image": {
+                      "url": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp",
+                      "title": "titulo 3"
+                    },
+                    "primary": "Titulo 3",
+                    "secondary": "Drama | 2019 | 16+ | 4k UHD"
+                  },
+                  {
+                    "image": {
+                      "url": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp",
+                      "title": "titulo 4"
+                    },
+                    "primary": "Titulo 4",
+                    "secondary": "Drama | 2019 | 16+ | 4k UHD"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tabs": "Actores",
+            "type": "list",
+            "content": {
+              "items": [
                 {
                   "title": "Andrew Lincoln",
-                  "image": "https://flop.today/__export/1646617527897/sites/flop/img/2022/03/06/andrew-lincoln-walking_dead.jpeg_1957410025.jpeg"
+                  "image": {
+                    "title": "Andrew Lincoln",
+                    "url": "https://flop.today/__export/1646617527897/sites/flop/img/2022/03/06/andrew-lincoln-walking_dead.jpeg_1957410025.jpeg"
+                  }
                 },
                 {
                   "title": "Norman Reedus",
-                  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQpbYeq8yQvuSdlRJE_AkuGf_Eg8Cz_rG2_w&usqp=CAU"
+                  "image": {
+                    "title": "Norman Reedus",
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQpbYeq8yQvuSdlRJE_AkuGf_Eg8Cz_rG2_w&usqp=CAU"
+                  }
                 },
                 {
                   "title": "Dennis Quaid",
-                  "image": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp"
+                  "image": {
+                    "title": "Dennis Quaid",
+                    "url": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp"
+                  }
                 },
                 {
                   "title": "Adam Baldwin",
-                  "image": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp"
+                  "image": {
+                    "title": "Adam Baldwin",
+                    "url": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp"
+                  }
                 },
                 {
                   "title": "Bruce McGill",
-                  "image": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp"
+                  "image": {
+                    "title": "Bruce McGill",
+                    "url": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp"
+                  }
                 },
                 {
                   "title": "SerDarius Blain",
-                  "image": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp"
-                }
-              ]
-            },
-            {
-              "type": "Grid",
-              "tabs": "Relacionados",
-              "tabsContent": [
-                {
-                  "title": "Zombi",
-                  "image": "https://parecidas.com/img_es/tag/thumb/a4/1600.jpg"
-                },
-                {
-                  "title": "Muertos vivientes",
-                  "image": "https://parecidas.com/img_es/tag/thumb/45/1937.jpg"
-                },
-                {
-                  "title": "Apocalipsis",
-                  "image": "https://parecidas.com/img_es/tag/thumb/67/1839.jpg"
-                },
-                {
-                  "title": "Plaga",
-                  "image": "https://parecidas.com/img_es/tag/thumb/3b/1719.jpg"
-                },
-                {
-                  "title": "Despues del Apocalipsis",
-                  "image": "https://parecidas.com/img_es/tag/thumb/5d/4178.jpg"
-                },
-                {
-                  "title": "Apocalipsis zombie",
-                  "image": "https://parecidas.com/img_es/tag/thumb/39/1768.jpg"
+                  "image": {
+                    "title": "SerDarius Blain",
+                    "url": "https://http2.mlstatic.com/D_Q_NP_221705-MLA25074486775_092016-I.webp"
+                  }
                 }
               ]
             }
-          ]
-        }
+          },
+          {
+            "tabs": "Relacionados",
+            "type": "grid",
+            "content": {
+              "classes": {},
+              "items": [
+                {
+                  "title": "Zombi",
+                  "image": {
+                    "title": "Zombi",
+                    "url": "https://parecidas.com/img_es/tag/thumb/a4/1600.jpg"
+                  }
+                },
+                {
+                  "title": "Muertos vivientes",
+                  "image": {
+                    "title": "Muertos vivientes",
+                    "url": "https://parecidas.com/img_es/tag/thumb/45/1937.jpg"
+                  }
+                },
+                {
+                  "title": "Apocalipsis",
+                  "image": {
+                    "title": "Apocalipsis",
+                    "url": "https://parecidas.com/img_es/tag/thumb/67/1839.jpg"
+                  }
+                },
+                {
+                  "title": "Plaga",
+                  "image": {
+                    "title": "Plaga",
+                    "url": "https://parecidas.com/img_es/tag/thumb/3b/1719.jpg"
+                  }
+                },
+                {
+                  "title": "Despues del Apocalipsis",
+                  "image": {
+                    "title": "Despues del Apocalipsis",
+                    "url": "https://parecidas.com/img_es/tag/thumb/5d/4178.jpg"
+                  }
+                },
+                {
+                  "title": "Apocalipsis zombie",
+                  "image": {
+                    "title": "Apocalipsis zombie",
+                    "url": "https://parecidas.com/img_es/tag/thumb/39/1768.jpg"
+                  }
+                }
+              ]
+            }
+          }
+        ]
       }
-    ]
-  }
+    }
+  ]
 }
