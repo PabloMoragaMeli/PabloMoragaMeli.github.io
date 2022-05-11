@@ -1,106 +1,28 @@
-  {
-    "type": "media-card",
-    "props": {
-      "padding": "none",
-      "hierarchy": "primary",
-      "style": "elevated",
-      "type": "none",
-      "muteDefault": false,
-      "header": "static|active",
-      "content": {
-        "header-static": {
-          "background": {
-            "type": "image",
-            "props": {
-              "title": "Pandillas",
-              "url": "https://images8.alphacoders.com/565/565975.jpg"
-            }
-          },
-          "top-left-item": {
-            "type": "badge-pill",
-            "props": {
-              "label": "TOP 10",
-              "type": "highlight"
-            }
-          },
-          "bottom-left-item": {
-            "type": "badge-pill",
-            "props": {
-              "label": "2h 39m",
-              "type": "generic | neutral"
-            }
-          },
-          "progress": {
-            "type": "progress",
-            "props": {
-              "value": 20
-            }
-          }
-        },
-        "header-active": {
-          "background": {
-            "type": "card-video",
-            "props": {
-              "muteControl": false,
-              "url": "https://mdstrm.com/video/61cb5496c29328060888b890.m3u8"
-            }
-          },
-          "bottom-left-item": {
-            "type": "badge-pill",
-            "props": {
-              "label": "2:10:50",
-              "type": "neutral"
-            }
-          }
-        },
-        "description": {
-          "image": {
-            "type": "image",
-            "props": {
-              "title": "Image Title",
-              "url": "https://images8.alphacoders.com/565/565975.jpg"
-            }
-          },
-          "title": {
-            "type": "typography",
-            "props": {
-              "type": "title",
-              "label": "Pandillas de Nueva York",
-              "size": "titleS"
-            }
-          },
-          "subtitle": {
-            "type": "typography",
-            "props": {
-              "type": "body",
-              "label": "Película | Drama",
-              "size": "bodyS"
-            }
-          },
-          "tags": [
-            {
-              "type": "tag",
-              "props": {
-                "tag-type": "simple",
-                "label": "tag 1"
-              }
-            },
-            {
-              "type": "tag",
-              "props": {
-                "tag-type": "simple",
-                "label": "tag 2"
-              }
-            },
-            {
-              "type": "tag",
-              "props": {
-                "tag-type": "simple",
-                "label": "tag 3"
-              }
-            }
-          ]
+{
+  "content": [
+    {
+      "type": "media-card",
+      "props": {
+        "title": {
+          "label": "Peli 1" 
+        }
+      }
+    },
+    {
+      "type": "media-card",
+      "props": {
+        "title": {
+          "label": "Peli 2"
+        }
+      }
+    },
+    {
+      "type": "media-card",
+      "props": {
+        "title": {
+          "label": "Peli 3"
         }
       }
     }
-  }
+  ]
+}
