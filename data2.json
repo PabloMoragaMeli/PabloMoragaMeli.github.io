@@ -4,7 +4,7 @@
       "type": "media-card",
       "props": {
         "title": {
-          "label": "Peli page 1" 
+          "label": "Peli page 2" 
         }
       }
     },
@@ -12,7 +12,7 @@
       "type": "media-card",
       "props": {
         "title": {
-          "label": "Peli page 1"
+          "label": "Peli page 2"
         }
       }
     },
@@ -20,7 +20,7 @@
       "type": "media-card",
       "props": {
         "title": {
-          "label": "Peli page 1"
+          "label": "Peli page 2"
         }
       }
     }
